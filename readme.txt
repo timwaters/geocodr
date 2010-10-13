@@ -19,4 +19,8 @@ Idea inspired by Mikel Maron
 Cluster code converted from Shyam Sivaraman's java http://www.sourcecodesworld.com/source/show.asp?ScriptID=807
 
 
-http://geothings.ning.com/FlickrGeocodrDocs.php
+http://geocodr.net
+
+It can do things like search within bounding boxes and all sorts! http://geocodr.net/FlickrGeocodrDocs.php
+
+http://geocodr.net/Flickr/search.php?find=happiness&bbox=-77.117,38.7988,-76.807,38.9784
