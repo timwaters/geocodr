@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Geocodr</ShortName>
+<Description>Search for places things events with Geocodr geocodr.ner</Description>
+<Tags>geo georss location kml flickr cluster</Tags>
+<Contact>tim@geothings.net</Contact>
+<AdultContent>false</AdultContent>
+<Image width="16" height="16" type="image/x-icon">favicon.ico</Image>
+<Url type="text/html" template="http://geocodr.net/Flickr/search.php?find={searchTerms}"/>
+<Url type="application/xml" template="http://geocodr.net/Flickr/search.php?find={searchTerms}&amp;lat={opensearchgeo:lat?}&amp;lon={opensearchgeo:lon?}&amp;distance={opensearchgeo:distance?}&amp;bbox={opensearchgeo:bbox?}&amp;showpoints={geocodr:showpoints?}&amp;showclusters={geocodr:showclusters?}&amp;searchmode={geocodr:searchmode?}&amp;sortmode={geocodr:sortmode?}&amp;numresults={geocodr:numresults?}&amp;numclusters={geocodr:numclusters?}&amp;format=xml"/>
+<Url type="application/json" template="http://geocodr.net/Flickr/search.php?find={searchTerms}&amp;lat={opensearchgeo:lat?}&amp;lon={opensearchgeo:lon?}&amp;distance={opensearchgeo:distance?}&amp;bbox={opensearchgeo:bbox?}&amp;showpoints={geocodr:showpoints?}&amp;showclusters={geocodr:showclusters?}&amp;searchmode={geocodr:searchmode?}&amp;sortmode={geocodr:sortmode?}&amp;numresults={geocodr:numresults?}&amp;numclusters={geocodr:numclusters?}&amp;format=json"/>
+<Query role="example" searchTerms="Leeds" /> 
+</OpenSearchDescription>
+
